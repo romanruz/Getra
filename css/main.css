@@ -102,6 +102,7 @@
     }
 
     .picWrapper>a {
+    	cursor: pointer;
         margin: 1%;
         position: relative;
         border-radius: 50%;
