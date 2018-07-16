@@ -1,13 +1,6 @@
 var scrollElem = document.getElementById('scrollTop');
-scrollElem.addEventListener('click', goUp)
-window.onscroll = function() {
-    if (document.documentElement.scrollTop > document.documentElement.clientHeight) {
-        scrollElem.style.opacity = '1';
-    } else {
-        scrollElem.style.opacity = '0';
-    }
-
-};
+scrollElem.addEventListener('click', goUp);
+window.addEventListener("scroll", detect);
 var timeOut;
 function goUp() {
     let top = Math.max(document.documentElement.scrollTop);
@@ -19,3 +12,11 @@ function goUp() {
     }
 
 }
+function detect() {
+    if (document.documentElement.scrollTop > document.documentElement.clientHeight) {
+        scrollElem.style.opacity = '1';
+    } else {
+        scrollElem.style.opacity = '0';
+    }
+
+};
