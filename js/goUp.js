@@ -1,8 +1,11 @@
+console.log ('i m in script');
 var scrollElem = document.getElementById('scrollTop');
+
 scrollElem.addEventListener('click', goUp);
 window.addEventListener("scroll", detect);
 var timeOut;
 function goUp() {
+    console.log ('i m in function');
     let top = Math.max(document.documentElement.scrollTop);
     if (top > 0) {
         window.scrollBy(0, -100);
