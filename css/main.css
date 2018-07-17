@@ -323,5 +323,6 @@
     position: absolute;
     transform: translate(-50%, -50%);
     /*background: red;*/
-    font-size: 50px;
+    /*font-size: 50px;*/
+    font: 30pt Righteous;
  /*   =========================================preloader*/
