@@ -17,14 +17,28 @@ function goUp(e) {
 
 }
 
+
+
 function detect(e) {
-    if (window.pageYOffset > document.documentElement.clientHeight) {
+    console.log ();
+    if (window.pageYOffset > 700) {
         scrollElem.style.opacity = '1';
         e.preventDefault();
     } else {
-
         scrollElem.style.opacity = '0';
         e.preventDefault();
     }
     e.preventDefault();
 };
+// function detect(e) {
+//     console.log (window.pageYOffset);
+//     if (window.pageYOffset > document.documentElement.clientHeight) {
+//         scrollElem.style.opacity = '1';
+//         e.preventDefault();
+//     } else {
+
+//         scrollElem.style.opacity = '0';
+//         e.preventDefault();
+//     }
+//     e.preventDefault();
+// };
