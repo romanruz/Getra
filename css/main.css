@@ -1,4 +1,4 @@
-    body {
+        body {
         /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#53cbf1+68,05abe0+100 */
         background: rgb(83, 203, 241);
         /* Old browsers */
@@ -58,7 +58,6 @@
     h1:hover {
         font: 70pt Righteous;
         color: red;
-        
     }
 
     h2 {
@@ -102,9 +101,10 @@
     }
 
     .picWrapper>a {
-    	cursor: pointer;
+        cursor: pointer;
         margin: 1%;
         position: relative;
+        border: 5px solid white;
         border-radius: 50%;
         width: 300px;
         height: 300px;
@@ -113,7 +113,6 @@
     .picWrapper>a:hover {
         width: 350px;
         height: 350px;
-        
     }
 
     .renovation {
@@ -274,55 +273,58 @@
         position: fixed;
         bottom: 20px;
         right: 20px;
-        opacity:0;
+        opacity: 0;
         transition: all 1s ease-in;
         cursor: pointer;
         font-size: 4vw;
         color: orange;
     }
-   /* Preloader*/
-   .preloader-2{
-    background: black;
-    position: fixed;
-    top:0;
-    left:0;
-    width: 100%;
-    height: 100%;
-    z-index: 5;
-    transition: 1s all;
-    visibility: visible;
-    opacity: 1;
-    background:url('../images/logo2.png')center no-repeat;
-    background-color: white;
-}
-.preloader{
-    background: black;
-    position: fixed;
-    top:0;
-    left:0;
-    width: 100%;
-    height: 100%;
-    z-index: 5;
-    transition: 1s all;
-    visibility: visible;
-    opacity: 1;
-  
-}
-.done{
-    opacity: 0;
-    visibility: hidden;
-}
-.loader{
-    color:#06559D;
-    width: 200px;
-    height: 75px;
-    top: 50%;
-    left:50%;
-    line-height: 60px;
-    text-align:center;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    /*background: red;*/
-    /*font-size: 50px;*/
-    font: 30pt Righteous;
- /*   =========================================preloader*/
+    /* Preloader*/
+
+    .preloader-2 {
+        background: black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 5;
+        transition: 1s all;
+        visibility: visible;
+        opacity: 1;
+        background: url('../images/logo2.png')center no-repeat;
+        background-color: white;
+    }
+
+    .preloader {
+        background: black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 5;
+        transition: 1s all;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .done {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .loader {
+        color: #06559D;
+        width: 200px;
+        height: 75px;
+        top: 50%;
+        left: 50%;
+        line-height: 60px;
+        text-align: center;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        /*background: red;*/
+        /*font-size: 50px;*/
+        font: 30pt Righteous;
+        /*   =========================================preloader*/
