@@ -1,5 +1,5 @@
 window.addEventListener('scroll', function(e) {
-    if ($(window).scrollTop() <= 1 || $(window).scrollTop() == $(document).height() - $(window).height() - 1) {
+    if ($(window).scrollTop() == $(document).height() - $(window).height() - 1) {
         console.log('in');
         $('.wow').removeClass('animated');
         $('.wow').removeAttr('style');
