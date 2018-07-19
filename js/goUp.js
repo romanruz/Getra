@@ -5,12 +5,11 @@ scrollElem.addEventListener('click', goUp);
 window.addEventListener("scroll", detect);
 var timeOut;
 
-function goUp() {
+function goUp(e) {
     let top = Math.max(document.documentElement.scrollTop);
     if (top > 0) {
         window.scrollBy(0, -100);
         timeOut = setTimeout('goUp()', 20);
-        e.preventDefault();
     } else {
         clearTimeout(timeOut);
         e.preventDefault();
@@ -19,7 +18,7 @@ function goUp() {
 }
 
 function detect(e) {
-    if (document.documentElement.scrollTop > document.documentElement.clientHeight) {
+    if (window.pageYOffset > document.documentElement.clientHeight) {
         scrollElem.style.opacity = '1';
         e.preventDefault();
     } else {
