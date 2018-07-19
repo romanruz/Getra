@@ -6,7 +6,7 @@ window.addEventListener("scroll", detect);
 var timeOut;
 
 function goUp(e) {
-    let top = Math.max(document.documentElement.scrollTop);
+    let top = Math.max(window.pageYOffset);
     if (top > 0) {
         window.scrollBy(0, -100);
         timeOut = setTimeout('goUp()', 20);
