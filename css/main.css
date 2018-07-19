@@ -11,7 +11,9 @@
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#53cbf1', endColorstr='#05abe0', GradientType=0);
         /* IE6-9 */
     }
-
+body img{
+    border:3px solid white;
+}
     .wrapper {
 
         display: grid;
