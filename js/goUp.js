@@ -1,3 +1,4 @@
+var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
 
 var scrollElem = document.getElementById('scrollTop');
 
@@ -6,13 +7,15 @@ window.addEventListener("scroll", detect);
 var timeOut;
 
 function goUp(e) {
+    if(iOS){
+        window.scrollTo(0, 0);
+    }
     let top = Math.max(window.pageYOffset);
     if (top > 0) {
         window.scrollBy(0, -100);
         timeOut = setTimeout('goUp()', 20);
     } else {
         clearTimeout(timeOut);
-        e.preventDefault();
     }
 
 }
@@ -20,7 +23,6 @@ function goUp(e) {
 
 
 function detect(e) {
-    console.log ();
     if (window.pageYOffset > 700) {
         scrollElem.style.opacity = '1';
         e.preventDefault();
