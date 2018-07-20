@@ -1,349 +1,346 @@
-            body {
-            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#53cbf1+68,05abe0+100 */
-            background: rgb(83, 203, 241);
-            /* Old browsers */
-            background: -moz-linear-gradient(top, rgba(83, 203, 241, 1) 68%, rgba(5, 171, 224, 1) 100%);
-            /* FF3.6-15 */
-            background: -webkit-linear-gradient(top, rgba(83, 203, 241, 1) 68%, rgba(5, 171, 224, 1) 100%);
-            /* Chrome10-25,Safari5.1-6 */
-            background: linear-gradient(to bottom, rgba(83, 203, 241, 1) 68%, rgba(5, 171, 224, 1) 100%);
-            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#53cbf1', endColorstr='#05abe0', GradientType=0);
-            /* IE6-9 */
-        }
+                            body {
+                            background-color: #53cbf1;
+                            background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+                            
+                            /*background-color: #53cbf1;
+                        background-image: url("https://www.transparenttextures.com/patterns/iron-grip.png");*/
+                            /*background-color: #53cbf1;
+background-image: url("https://www.transparenttextures.com/patterns/subtle-grey.png");*/
+                            
+                        }
 
-        body img {
-            border: 3px solid white;
-        }
+                        body img {
+                            border: 3px solid white;
+                        }
 
-        .wrapper {
+                        .wrapper {
 
-            display: grid;
-            grid-template-columns: 5% 1fr 5%;
-            grid-template-rows: 20% 1fr 20%;
-            grid-template-areas: "header header header" ". content ." "footer footer footer";
-        }
+                            display: grid;
+                            grid-template-columns: 5% 1fr 5%;
+                            grid-template-rows: 20% 1fr 20%;
+                            grid-template-areas: "header header header" ". content ." "footer footer footer";
+                        }
 
-        .logo {
-            padding-left: 2%;
-            font: 140pt Righteous;
-        }
+                        .logo {
+                            padding-left: 2%;
+                            font: 140pt Righteous;
+                        }
 
-        .headerContact {
-            display: flex;
-            align-items: flex-end;
-            font: 25pt Righteous;
-            padding-right: 5px;
-            margin-left: auto;
-        }
+                        .headerContact {
+                            display: flex;
+                            align-items: flex-end;
+                            font: 25pt Righteous;
+                            padding-right: 5px;
+                            margin-left: auto;
+                        }
 
-        .transition {
-            transition: 2s;
-        }
+                        .transition {
+                            transition: 2s;
+                        }
 
-        .headerContact :hover {
-            font: 30pt Righteous;
-            color: lime;
-        }
+                        .headerContact :hover {
+                            font: 30pt Righteous;
+                            color: lime;
+                        }
 
-        .header {
-            display: grid;
-            grid-template-columns: 50% 1fr;
-            color: white;
-            grid-area: header;
-        }
+                        .header {
+                            display: grid;
+                            grid-template-columns: 50% 1fr;
+                            color: white;
+                            grid-area: header;
+                        }
 
-        h1 {
-            font: 60pt Righteous;
-            color: white;
-            text-align: center;
-        }
+                        h1 {
+                            font: 60pt Righteous;
+                            color: white;
+                            text-align: center;
+                        }
 
-        h1:hover {
-            font: 70pt Righteous;
-            color: red;
-        }
+                        h1:hover {
+                            font: 70pt Righteous;
+                            color: red;
+                        }
 
-        h2 {
+                        h2 {
 
-            color: #90F252;
-            ;
-        }
+                            color: #90F252;
+                            ;
+                        }
 
-        h2:hover {
-            font-size: 35px;
-            color: red;
-            transition: 2s;
-        }
+                        h2:hover {
+                            font-size: 35px;
+                            color: red;
+                            transition: 2s;
+                        }
 
-        .header hr {
-            background-color: white;
-            height: 2px;
-            border: none;
-            width: 90%;
-            color: white;
-            grid-column: 1/3;
-        }
+                        .header hr {
+                            background-color: white;
+                            height: 2px;
+                            border: none;
+                            width: 90%;
+                            color: white;
+                            grid-column: 1/3;
+                        }
 
-        hr {
-            background-color: white;
-            height: 2px;
-            border: none;
-            width: 90%;
-            color: white;
-        }
+                        hr {
+                            background-color: white;
+                            height: 2px;
+                            border: none;
+                            width: 90%;
+                            color: white;
+                        }
 
-        .picWrapper {
-            flex-wrap: wrap;
-            width: 100%;
-            flex-direction: row;
-            justify-content: space-around;
-            display: flex;
-        }
+                        .picWrapper {
+                            flex-wrap: wrap;
+                            width: 100%;
+                            flex-direction: row;
+                            justify-content: space-around;
+                            display: flex;
+                        }
 
-        .content {
-            grid-area: content;
-        }
+                        .content {
+                            grid-area: content;
+                        }
 
-        .picWrapper>a {
-            cursor: pointer;
-            margin: 1%;
-            position: relative;
-            border: 5px solid white;
-            border-radius: 50%;
-            width: 300px;
-            height: 300px;
-        }
+                        .picWrapper>a {
+                            cursor: pointer;
+                            margin: 1%;
+                            position: relative;
+                            border: 5px solid white;
+                            border-radius: 50%;
+                            width: 300px;
+                            height: 300px;
+                        }
 
-        .picWrapper>a:hover {
-            width: 350px;
-            height: 350px;
-        }
+                        .picWrapper>a:hover {
+                            width: 350px;
+                            height: 350px;
+                        }
 
-        .renovation {
-            background-size: cover;
-            background-image: url(../images/equipe2.jpg);
-        }
+                        .renovation {
+                            background-size: cover;
+                            background-image: url(../images/equipe2.jpg);
+                        }
 
-        .construction {
-            background-size: cover;
-            background-image: url('../images/realisations/CON_01.JPG');
-        }
+                        .construction {
+                            background-size: cover;
+                            background-image: url('../images/realisations/CON_01.JPG');
+                        }
 
-        .electricite {
-            background-size: cover;
-            background-image: url('../images/ThinkstockPhotos-155471420.jpg');
-        }
+                        .electricite {
+                            background-size: cover;
+                            background-image: url('../images/ThinkstockPhotos-155471420.jpg');
+                        }
 
-        .menuiserie {
-            background-size: cover;
-            background-image: url('../images/realisations/M_09.jpg');
-        }
+                        .menuiserie {
+                            background-size: cover;
+                            background-image: url('../images/realisations/M_09.jpg');
+                        }
 
-        .innerPic {
-            position: absolute;
-            font: 26pt Righteous;
-            left: 24px;
-            top: 172px;
-            color: #FFF;
-            background-color: #4ac7ef;
-            border-radius: 10px;
-            padding-left: 7px;
-            padding-right: 7px;
-            letter-spacing: 3px;
-        }
+                        .innerPic {
+                            position: absolute;
+                            font: 26pt Righteous;
+                            left: 24px;
+                            top: 172px;
+                            color: #FFF;
+                            background-color: #4ac7ef;
+                            border-radius: 10px;
+                            padding-left: 7px;
+                            padding-right: 7px;
+                            letter-spacing: 3px;
+                        }
 
-        .renovationWrapper {
-            font: 15pt Righteous;
-            color: white;
-        }
+                        .renovationWrapper {
+                            font: 15pt Righteous;
+                            color: white;
+                        }
 
-        .renovationWrapper i {
-            color: orange;
-            font-size: 38px;
-            padding: 10px;
-        }
+                        .renovationWrapper i {
+                            color: orange;
+                            font-size: 38px;
+                            padding: 10px;
+                        }
 
-        .examplePic {
-            justify-content: space-between;
-            display: flex;
-            flex-wrap: nowrap;
-            flex-direction: row;
-        }
+                        .examplePic {
+                            justify-content: space-between;
+                            display: flex;
+                            flex-wrap: nowrap;
+                            flex-direction: row;
+                        }
 
-        .examplePic img {
-            width: 20vw;
-            height: 22vw;
-            border-radius: 5px;
-            margin-top: 1vw;
-        }
+                        .examplePic img {
+                            width: 20vw;
+                            height: 22vw;
+                            border-radius: 5px;
+                            margin-top: 1vw;
+                        }
 
-        .littleIcon {
-            font-size: 20px !important;
-        }
+                        .littleIcon {
+                            font-size: 20px !important;
+                        }
 
-        .span {
-            display: inline-block;
-            margin-left: 3%;
-        }
+                        .span {
+                            display: inline-block;
+                            margin-left: 3%;
+                        }
 
-        .electriciteWrapper {
-            display: grid;
-            grid-template-columns: 40% 60%;
-            grid-template-rows: auto 1fr;
-            grid-template-areas: "center center" "left right";
-            font: 15pt Righteous;
-            color: white;
-        }
+                        .electriciteWrapper {
+                            display: grid;
+                            grid-template-columns: 40% 60%;
+                            grid-template-rows: auto 1fr;
+                            grid-template-areas: "center center" "left right";
+                            font: 15pt Righteous;
+                            color: white;
+                        }
 
-        .electriciteCenter {
-            grid-area: center
-        }
+                        .electriciteCenter {
+                            grid-area: center
+                        }
 
-        .electriciteLeft {
-            grid-area: left;
-        }
+                        .electriciteLeft {
+                            grid-area: left;
+                        }
 
-        .electriciteRight img {
-            width: 20vw;
-            height: 22vw;
-            border-radius: 5px;
-            margin-top: 15px;
-        }
+                        .electriciteRight img {
+                            width: 20vw;
+                            height: 22vw;
+                            border-radius: 5px;
+                            margin-top: 15px;
+                        }
 
-        .electriciteRight {
-            justify-content: space-around;
-            flex-wrap: wrap;
-            display: flex;
-            grid-area: right;
-        }
+                        .electriciteRight {
+                            justify-content: space-around;
+                            flex-wrap: wrap;
+                            display: flex;
+                            grid-area: right;
+                        }
 
-        .electriciteWrapper i {
-            color: orange;
-            font-size: 38px;
-            padding: 10px;
-        }
+                        .electriciteWrapper i {
+                            color: orange;
+                            font-size: 38px;
+                            padding: 10px;
+                        }
 
-        .constructionWrapper {
-            font: 15pt Righteous;
-            color: white;
-        }
+                        .constructionWrapper {
+                            font: 15pt Righteous;
+                            color: white;
+                        }
 
-        .constructionWrapper i {
-            color: orange;
-            font-size: 38px;
-            padding: 10px;
-        }
+                        .constructionWrapper i {
+                            color: orange;
+                            font-size: 38px;
+                            padding: 10px;
+                        }
 
-        .consructionPic {
-            display: grid;
-            grid-template-columns: 40% 60%;
-            grid-template-rows: auto;
-            grid-template-areas: "consructionPicLeft consructionPicRight";
-        }
+                        .consructionPic {
+                            display: grid;
+                            grid-template-columns: 40% 60%;
+                            grid-template-rows: auto;
+                            grid-template-areas: "consructionPicLeft consructionPicRight";
+                        }
 
-        .consructionPicRight {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
+                        .consructionPicRight {
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-around;
+                        }
 
-        .consructionPicRight img {
-            width: 20vw;
-            height: 22vw;
-            border-radius: 5px;
-            margin-top: 15px;
-        }
+                        .consructionPicRight img {
+                            width: 20vw;
+                            height: 22vw;
+                            border-radius: 5px;
+                            margin-top: 15px;
+                        }
 
-        .menuiserieWrapper {
-            font: 15pt Righteous;
-            color: white;
-        }
+                        .menuiserieWrapper {
+                            font: 15pt Righteous;
+                            color: white;
+                        }
 
-        .menuiserieWrapper i {
-            color: orange;
-            font-size: 38px;
-            padding: 10px;
-        }
+                        .menuiserieWrapper i {
+                            color: orange;
+                            font-size: 38px;
+                            padding: 10px;
+                        }
 
-        .footer {
-            margin-top: 15px;
-            font: 10pt Righteous;
-            text-align: center;
-            color: white;
-            grid-area: footer;
-        }
+                        .footer {
+                            margin-top: 15px;
+                            font: 10pt Righteous;
+                            text-align: center;
+                            color: white;
+                            grid-area: footer;
+                        }
 
-        #scrollTop {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            opacity: 0;
-            transition: all 1s ease-in;
-            cursor: pointer;
-            font-size: 4vw;
-            color: orange;
-        }
+                        #scrollTop {
+                            position: fixed;
+                            bottom: 20px;
+                            right: 20px;
+                            opacity: 0;
+                            transition: all 1s ease-in;
+                            cursor: pointer;
+                            font-size: 4vw;
+                            color: orange;
+                        }
 
 
-        @media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) { #scrollTop {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            opacity: 0;
-            transition: all 1s ease-in;
-            cursor: pointer;
-            font-size: 10vw;
-            color: orange;
-        }}
-        /* ==============================Preloader*/
+                        @media only screen and (min-device-width: 320px) and (max-device-width: 667px) {
+                            #scrollTop {
+                                position: fixed;
+                                bottom: 20px;
+                                right: 20px;
+                                opacity: 0;
+                                transition: all 1s ease-in;
+                                cursor: pointer;
+                                font-size: 10vw;
+                                color: orange;
+                            }
+                        }
+                        /* ==============================Preloader*/
 
-        .preloader-2 {
-            background: black;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 5;
-            transition: 1s all;
-            visibility: visible;
-            opacity: 1;
-            background: url('../images/logo2.png')center no-repeat;
-            background-color: white;
-        }
+                        .preloader-2 {
+                            background: black;
+                            position: fixed;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            z-index: 5;
+                            transition: 1s all;
+                            visibility: visible;
+                            opacity: 1;
+                            background: url('../images/logo2.png')center no-repeat;
+                            background-color: white;
+                        }
 
-        .preloader {
-            background: black;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 5;
-            transition: 1s all;
-            visibility: visible;
-            opacity: 1;
-        }
+                        .preloader {
+                            background: black;
+                            position: fixed;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            z-index: 5;
+                            transition: 1s all;
+                            visibility: visible;
+                            opacity: 1;
+                        }
 
-        .done {
-            opacity: 0;
-            visibility: hidden;
-        }
+                        .done {
+                            opacity: 0;
+                            visibility: hidden;
+                        }
 
-        .loader {
-            color: #06559D;
-            width: 200px;
-            height: 75px;
-            top: 50%;
-            left: 50%;
-            line-height: 60px;
-            text-align: center;
-            position: absolute;
-            transform: translate(-50%, -50%);
-            /*background: red;*/
-            /*font-size: 50px;*/
-            font: 30pt Righteous;
-            /*   =========================================preloader*/
+                        .loader {
+                            color: #06559D;
+                            width: 200px;
+                            height: 75px;
+                            top: 50%;
+                            left: 50%;
+                            line-height: 60px;
+                            text-align: center;
+                            position: absolute;
+                            transform: translate(-50%, -50%);
+                            /*background: red;*/
+                            /*font-size: 50px;*/
+                            font: 30pt Righteous;
+                            /*   =========================================preloader*/
