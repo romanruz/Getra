@@ -1,6 +1,10 @@
                             body {
-                            background-color: #53cbf1;
-                            background-image: url(../images/backPic.png);
+background-color: #5bcdf2;
+background-image: url("https://www.transparenttextures.com/patterns/crissxcross.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+                            	
+                            /*background-color: #53cbf1;
+                            background-image: url(../images/backPic.png);*/
                             
                             /*background-color: #53cbf1;
                         background-image: url("https://www.transparenttextures.com/patterns/iron-grip.png");*/

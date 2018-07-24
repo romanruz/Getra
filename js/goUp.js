@@ -7,7 +7,10 @@ window.addEventListener("scroll", detect);
 var timeOut;
 
 function goUp(e) {
-    if(iOS){
+    $('.wow').removeClass('animated');
+    $('.wow').removeAttr('style');
+    new WOW().init();
+    if (iOS) {
         window.scrollTo(0, 0);
     }
     let top = Math.max(window.pageYOffset);
